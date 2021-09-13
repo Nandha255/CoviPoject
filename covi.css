@@ -1,0 +1,39 @@
+body {
+  border-style: solid;
+  border-width: thin;
+  background-size: 50%;
+  background-color: rgb(245 34 34);
+}
+.left{
+      background-color: rgb(29 47 87 / 23%);
+    text-align: center;
+    padding: 3px;
+    font-size: 25px;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    display: grid;
+    }
+.right { column-count: 7;
+column-gap: 1px;
+  border-collapse: collapse;
+}
+table, td, th {
+  border: 2px solid #efefef61;
+  font-size: 15px;
+}
+table, td,th{
+  column-gap: 1px;
+}
+
+th{
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  border-collapse: collapse; 
+}
+td{
+  
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
